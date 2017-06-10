@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SingleTab">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textInactive" format="string"/>
+        <attr name="textInactiveColor" format="color"/>
+        <attr name="textActive" format="string"/>
+        <attr name="textActiveColor" format="color"/>
+
+        <attr name="imgHeight" format="dimension"/>
+        <attr name="useColorFilter" format="boolean"/>
+        <attr name="img" format="reference"/>
+        <attr name="imgActive" format="reference"/>
+        <attr name="imgActiveColor" format="color"/>
+        <attr name="imgInactiveColor" format="color"/>
+        <attr name="imgInactive" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="BottomNav">
+        <attr name="defaultActive" format="integer"/>
+    </declare-styleable>
+</resources>

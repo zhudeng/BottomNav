@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jsnu.bottomtab.MainActivity">
+
+    <com.jsnu.bottom_tab.BottomNav
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:defaultActive="0">
+        <com.jsnu.bottom_tab.SingleTab
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:imgHeight="30dp"
+            app:img="@drawable/angle_inactive"
+            app:useColorFilter="true"
+            app:textActive="Angle_Active"
+            app:textInactive="Angle_Inactive"/>
+        <com.jsnu.bottom_tab.SingleTab
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:imgHeight="30dp"
+            app:useColorFilter="true"
+            app:img="@drawable/angry_inactive"
+            app:textActive="Angry_Active"
+            app:textInactive="Angry_Inactive"/>
+        <com.jsnu.bottom_tab.SingleTab
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:imgHeight="30dp"
+            app:useColorFilter="true"
+            app:img="@drawable/cool_inactive"
+            app:textActive="Cool_Active"
+            app:textInactive="Cool_Inactive"/>
+    </com.jsnu.bottom_tab.BottomNav>
+
+</FrameLayout>
